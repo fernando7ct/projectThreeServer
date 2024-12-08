@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyTest" time="0.027" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyTest" time="0.037" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/surefire/surefirebooter7588488541813114624.jar /Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/surefire 2024-12-07T19-49-28_642-jvmRun1 surefire14500402746472029324tmp surefire_05284977787588745844tmp"/>
+    <property name="sun.java.command" value="/Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/surefire/surefirebooter9345843213527970469.jar /Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/surefire 2024-12-07T21-21-17_209-jvmRun1 surefire3513824288319397286tmp surefire_013025212722623242134tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/test-classes:/Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/classes:/Users/fernando7ct/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar:/Users/fernando7ct/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/Users/fernando7ct/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/fernando7ct/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/Users/fernando7ct/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/fernando7ct/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/Users/fernando7ct/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/Users/fernando7ct/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-mac-aarch64.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-mac-aarch64.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-mac-aarch64.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1.jar:/Users/fernando7ct/.m2/repository/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1-mac-aarch64.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/surefire/surefirebooter7588488541813114624.jar"/>
+    <property name="surefire.real.class.path" value="/Users/fernando7ct/Documents/Education/Fall2024/CS342/Eclipse/projectThreeServer/target/surefire/surefirebooter9345843213527970469.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1"/>
@@ -58,19 +58,19 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testDeckUniqueCards" classname="MyTest" time="0.011"/>
+  <testcase name="testDeckUniqueCards" classname="MyTest" time="0.016"/>
   <testcase name="testCard" classname="MyTest" time="0"/>
-  <testcase name="testPlayerInitialState" classname="MyTest" time="0.003"/>
+  <testcase name="testPlayerInitialState" classname="MyTest" time="0.001"/>
   <testcase name="testEvalPPWinnings" classname="MyTest" time="0.001"/>
-  <testcase name="testEvalHandPair" classname="MyTest" time="0"/>
+  <testcase name="testEvalHandPair" classname="MyTest" time="0.001"/>
   <testcase name="testPlayerResetBets" classname="MyTest" time="0"/>
-  <testcase name="testEvalHandFlush" classname="MyTest" time="0"/>
-  <testcase name="testEvalHandStraightFlush" classname="MyTest" time="0.001"/>
-  <testcase name="testDeckInitialization" classname="MyTest" time="0"/>
-  <testcase name="testEvalHandStraight" classname="MyTest" time="0.001"/>
-  <testcase name="testCompareHandsTie" classname="MyTest" time="0.001"/>
+  <testcase name="testEvalHandFlush" classname="MyTest" time="0.001"/>
+  <testcase name="testEvalHandStraightFlush" classname="MyTest" time="0"/>
+  <testcase name="testDeckInitialization" classname="MyTest" time="0.001"/>
+  <testcase name="testEvalHandStraight" classname="MyTest" time="0"/>
+  <testcase name="testCompareHandsTie" classname="MyTest" time="0.002"/>
   <testcase name="testEvalHandThreeOfAKind" classname="MyTest" time="0"/>
-  <testcase name="testEvalHandHighCard" classname="MyTest" time="0"/>
-  <testcase name="testCompareHandsDealerWins" classname="MyTest" time="0.001"/>
-  <testcase name="testDeckShuffling" classname="MyTest" time="0"/>
+  <testcase name="testEvalHandHighCard" classname="MyTest" time="0.001"/>
+  <testcase name="testCompareHandsDealerWins" classname="MyTest" time="0"/>
+  <testcase name="testDeckShuffling" classname="MyTest" time="0.001"/>
 </testsuite>
