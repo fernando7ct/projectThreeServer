@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="ServerControllerIntro"
+            prefWidth="500" prefHeight="300">
+    <center>
+        <VBox spacing="20" alignment="CENTER" style="-fx-padding:20; -fx-background-color: green;">
+            <Label text="Enter Port Number:" style="-fx-font-size:18px; -fx-font-weight:bold;"/>
+            <TextField fx:id="portField" text="5555" style="-fx-font-size:16px;"/>
+            <Button text="Start Server" onAction="#startServer" style="-fx-font-size:16px;"/>
+            <Button text="Exit" onAction="#handleExit" style="-fx-font-size:16px;"/>
+        </VBox>
+    </center>
+</BorderPane>

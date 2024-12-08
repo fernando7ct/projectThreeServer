@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="ServerControllerStatus"
+            prefWidth="600" prefHeight="400" style="-fx-background-color:#E0E0E0;">
+    <top>
+        <VBox spacing="10" style="-fx-padding:10;">
+            <Label fx:id="serverPortLabel" style="-fx-font-size:16px; -fx-font-weight:bold;"/>
+            <HBox spacing="10">
+                <Label fx:id="connectedClientsLabel" text="Connected Clients: 0" style="-fx-font-size:14px;"/>
+                <Pane/>
+                <Button text="Stop Server" onAction="#stopServer" style="-fx-font-size:14px;"/>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <ListView fx:id="eventsListView" style="-fx-font-size:14px;"/>
+    </center>
+</BorderPane>
